@@ -39,7 +39,8 @@ Product.init(
       references: {
         model: 'category',
         id: 'id'
-      }
+      },
+      allowNull: true
     }
   },
   {
